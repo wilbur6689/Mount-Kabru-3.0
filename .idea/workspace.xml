@@ -2,29 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="303d4ebc-ab3b-4845-85a1-2dc91d869a00" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/mountKabru/MountKabru.java" afterPath="$PROJECT_DIR$/src/java/MountKabru.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/control/ActorControl.java" afterPath="$PROJECT_DIR$/src/java/control/ActorControl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/control/EventControl.java" afterPath="$PROJECT_DIR$/src/java/control/EventControl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/control/GameControl.java" afterPath="$PROJECT_DIR$/src/java/control/GameControl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/control/HeroControl.java" afterPath="$PROJECT_DIR$/src/java/control/HeroControl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/control/InventoryControl.java" afterPath="$PROJECT_DIR$/src/java/control/InventoryControl.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/MountKabru.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/control/WorldControl.java" afterPath="$PROJECT_DIR$/src/java/control/WorldControl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/AdventureView.java" afterPath="$PROJECT_DIR$/src/java/view/AdventureView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/AttackMonsView.java" afterPath="$PROJECT_DIR$/src/java/view/AttackMonsView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/BuyArmorView.java" afterPath="$PROJECT_DIR$/src/java/view/BuyArmorView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/BuyFromSpellCaster.java" afterPath="$PROJECT_DIR$/src/java/view/BuyFromSpellCaster.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/BuyWeaponView.java" afterPath="$PROJECT_DIR$/src/java/view/BuyWeaponView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/DrinkPotionView.java" afterPath="$PROJECT_DIR$/src/java/view/DrinkPotionView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/ErrorView.java" afterPath="$PROJECT_DIR$/src/java/view/ErrorView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/GameMenuView.java" afterPath="$PROJECT_DIR$/src/java/view/GameMenuView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/MainMenuView.java" afterPath="$PROJECT_DIR$/src/java/view/MainMenuView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/PrintReportView.java" afterPath="$PROJECT_DIR$/src/java/view/PrintReportView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/SaveGameView.java" afterPath="$PROJECT_DIR$/src/java/view/SaveGameView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/SellToBlacksmithView.java" afterPath="$PROJECT_DIR$/src/java/view/SellToBlacksmithView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/TavernView.java" afterPath="$PROJECT_DIR$/src/java/view/TavernView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/View.java" afterPath="$PROJECT_DIR$/src/java/view/View.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/WorldMapView.java" afterPath="$PROJECT_DIR$/src/java/view/WorldMapView.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +31,8 @@
       <file leaf-file-name="Item.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/java/model/Item.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="357">
+              <caret line="21" column="109" lean-forward="true" selection-start-line="21" selection-start-column="109" selection-end-line="21" selection-end-column="109" />
               <folding />
             </state>
           </provider>
@@ -234,6 +214,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="java" />
     </key>
   </component>
@@ -740,7 +721,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/MountKabru.java">
+    <entry file="file://$PROJECT_DIR$/src/MountKabru.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
@@ -808,8 +789,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/model/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="357">
+          <caret line="21" column="109" lean-forward="true" selection-start-line="21" selection-start-column="109" selection-end-line="21" selection-end-column="109" />
           <folding />
         </state>
       </provider>
