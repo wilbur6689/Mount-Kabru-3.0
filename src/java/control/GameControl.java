@@ -1,27 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package java.control;
 
 import static java.control.InventoryControl.createInventory;
-import byui.cit260.mountKabru.exceptions.GameControlException;
-import byui.cit260.mountKabru.model.Actor;
-import byui.cit260.mountKabru.model.Game;
-import byui.cit260.mountKabru.model.Hero;
-import byui.cit260.mountKabru.model.Inventory;
-import byui.cit260.mountKabru.model.Player;
-import byui.cit260.mountKabru.model.World;
-import byui.cit260.mountKabru.view.ErrorView;
-import mountkabru.MountKabru;
+import java.exceptions.GameControlException;
+import java.model.Actor;
+import java.model.Game;
+import java.model.Hero;
+import java.model.Inventory;
+import java.model.Player;
+import java.model.World;
+import java.mountKabru.MountKabru;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-
-import static java.lang.Integer.parseInt;
 
 /**
  *

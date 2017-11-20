@@ -1,7 +1,7 @@
 package java.control;
 
 
-import byui.cit260.mountKabru.exceptions.TavernControlException;
+import java.exceptions.TavernControlException;
 
 /**
  * Created by badgerwaves on 2/10/16.

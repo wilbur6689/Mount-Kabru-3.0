@@ -1,8 +1,8 @@
 package java.control;
 
-import byui.cit260.mountKabru.model.Actor;
-import byui.cit260.mountKabru.model.Event;
-import mountkabru.MountKabru;
+import java.model.Actor;
+import java.model.Event;
+import java.mountKabru.MountKabru;
 
 
 /**

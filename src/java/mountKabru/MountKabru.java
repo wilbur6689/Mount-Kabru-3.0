@@ -1,7 +1,7 @@
 package java.mountKabru;
 import java.model.Game;
 import java.model.Hero;
-import java.Player;
+import java.model.Player;
 import java.view.ErrorView;
 import java.view.StartProgramView;
 import java.io.BufferedReader;

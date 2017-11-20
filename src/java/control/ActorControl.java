@@ -1,10 +1,10 @@
 package java.control;
 
-import byui.cit260.mountKabru.exceptions.ActorControlException;
-import byui.cit260.mountKabru.model.Actor;
-import byui.cit260.mountKabru.model.Hero;
+import java.exceptions.ActorControlException;
+import java.model.Actor;
+import java.model.Hero;
 import java.util.Arrays;
-import mountkabru.MountKabru;
+import java.mountKabru.MountKabru;
 
 /**
  * Created by badgerwaves on 2/10/16.

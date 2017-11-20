@@ -1,8 +1,8 @@
 package java.control;
 
-import byui.cit260.mountKabru.model.Inventory;
-import byui.cit260.mountKabru.model.Item;
-import mountkabru.MountKabru;
+import java.model.Inventory;
+import java.model.Item;
+import java.mountKabru.MountKabru;
 
 /**
  * Created by badgerwaves on 2/10/16.
@@ -13,7 +13,7 @@ public class InventoryControl {
     public static Inventory createInventory() {
         
         
-        Inventory inventory = new Inventory(Item.bareHands, Item.clothes, Item.lameMagic, Item.healthPotion10 , Item.manaPotion10);
+        Inventory inventory = new Inventory(Item.bareHands, Item.clothes, Item.lameMagic);
         
         
          MountKabru.getCurrentGame().getHero().setInventory(inventory);
@@ -34,8 +34,6 @@ public class InventoryControl {
         
         inventory[0] = MountKabru.getCurrentGame().getHero().getInventory().getWeaponSlot().getName();
         inventory[1] = MountKabru.getCurrentGame().getHero().getInventory().getArmorSlot().getName();
-        inventory[2] = MountKabru.getCurrentGame().getHero().getInventory().getHealthPotionSlot().getName();
-        inventory[3] = MountKabru.getCurrentGame().getHero().getInventory().getManaPotionSlot().getName();
         inventory[4] = MountKabru.getCurrentGame().getHero().getInventory().getSpellSlot().getName();
 
         return inventory;

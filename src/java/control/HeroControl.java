@@ -1,6 +1,6 @@
 package java.control;
 
-import mountkabru.MountKabru;
+import java.mountKabru.MountKabru;
 
 import java.util.Scanner;
 
@@ -23,8 +23,6 @@ public class HeroControl {
         String weaponSlot = MountKabru.getCurrentGame().getHero().getInventory().getWeaponSlot().getName();
         String armorSlot = MountKabru.getCurrentGame().getHero().getInventory().getArmorSlot().getName();
         String spellSlot = MountKabru.getCurrentGame().getHero().getInventory().getSpellSlot().getName();
-        String healthPotion = MountKabru.getCurrentGame().getHero().getInventory().getHealthPotionSlot().getName();
-        String manaPotion = MountKabru.getCurrentGame().getHero().getInventory().getManaPotionSlot().getName();
 
         String stats = (
                 "\n"
@@ -44,8 +42,7 @@ public class HeroControl {
                         + "\n Weapon:           " + weaponSlot
                         + "\n Armor:            " + armorSlot
                         + "\n Spell:            " + spellSlot
-                        + "\n HP Potion:        " + healthPotion
-                        + "\n Mana Potion:      " + manaPotion
+                        + "\n Inventory:          Coming Soon!!"
                         + "\n"
                         + "\n"
         );

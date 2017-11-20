@@ -1,17 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package java.view;
 
 import java.control.TavernControl;
 import java.model.Item;
-import mountkabru.MountKabru;
+import java.mountKabru.MountKabru;
+import java.util.List;
 
-import static java.lang.Integer.parseInt;
-import static java.lang.Integer.parseInt;
-import static java.lang.Integer.parseInt;
 import static java.lang.Integer.parseInt;
 
 /**
@@ -115,7 +109,6 @@ public class TavernView extends View{
 
     private void buyHealthPotion() {
         int beforeGold = MountKabru.getCurrentGame().getHero().getGold();
-        int hPotion = MountKabru.getCurrentGame().getHero().getInventory().getHealthPotionSlot().getHealthValue();
 
         if (beforeGold < 100) {
             this.console.println("Sorry, but you dont have enough gold.");
@@ -123,7 +116,7 @@ public class TavernView extends View{
             int afterGold = beforeGold - 100;
             MountKabru.getCurrentGame().getHero().setGold(afterGold);
             List<Item> items = MountKabru.getCurrentGame().getHero().getInventory().getItems();
-            items.add(Item.healthPotion10)
+            items.add(Item.healthPotion10);
             MountKabru.getCurrentGame().getHero().getInventory().setItems(items);
             this.console.println("Thank you for buying a health Potion");
         }
@@ -131,14 +124,15 @@ public class TavernView extends View{
 
     private void buyManaPotion() {
        int beforeGold = MountKabru.getCurrentGame().getHero().getGold();
-        int mPotion = MountKabru.getCurrentGame().getHero().getInventory().getHealthPotionSlot().getSpellAttackValue();
-        
-        if (mPotion == 10) {
-            this.console.println("Sorry, but you already have a potion.");
+
+        if (beforeGold < 100) {
+            this.console.println("Sorry, but you dont have enough gold.");
         } else {
             int afterGold = beforeGold - 100;
             MountKabru.getCurrentGame().getHero().setGold(afterGold);
-            MountKabru.getCurrentGame().getHero().getInventory().setHealthPotionSlot(Item.manaPotion10);
+            List<Item> items = MountKabru.getCurrentGame().getHero().getInventory().getItems();
+            items.add(Item.manaPotion10);
+            MountKabru.getCurrentGame().getHero().getInventory().setItems(items);
             this.console.println("Thank you for buying a Mana Potion");
         }
 
