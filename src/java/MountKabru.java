@@ -1,4 +1,4 @@
-package java.mountKabru;
+package java;
 import java.model.Game;
 import java.model.Hero;
 import java.model.Player;

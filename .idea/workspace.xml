@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="303d4ebc-ab3b-4845-85a1-2dc91d869a00" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/model/Inventory.java" afterPath="$PROJECT_DIR$/src/java/model/Inventory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/mountKabru/MountKabru.java" afterPath="$PROJECT_DIR$/src/java/MountKabru.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/control/ActorControl.java" afterPath="$PROJECT_DIR$/src/java/control/ActorControl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/control/EventControl.java" afterPath="$PROJECT_DIR$/src/java/control/EventControl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/control/GameControl.java" afterPath="$PROJECT_DIR$/src/java/control/GameControl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/control/HeroControl.java" afterPath="$PROJECT_DIR$/src/java/control/HeroControl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/control/InventoryControl.java" afterPath="$PROJECT_DIR$/src/java/control/InventoryControl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/control/WorldControl.java" afterPath="$PROJECT_DIR$/src/java/control/WorldControl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/AdventureView.java" afterPath="$PROJECT_DIR$/src/java/view/AdventureView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/AttackMonsView.java" afterPath="$PROJECT_DIR$/src/java/view/AttackMonsView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/BuyArmorView.java" afterPath="$PROJECT_DIR$/src/java/view/BuyArmorView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/BuyFromSpellCaster.java" afterPath="$PROJECT_DIR$/src/java/view/BuyFromSpellCaster.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/BuyWeaponView.java" afterPath="$PROJECT_DIR$/src/java/view/BuyWeaponView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/DrinkPotionView.java" afterPath="$PROJECT_DIR$/src/java/view/DrinkPotionView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/ErrorView.java" afterPath="$PROJECT_DIR$/src/java/view/ErrorView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/GameMenuView.java" afterPath="$PROJECT_DIR$/src/java/view/GameMenuView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/MainMenuView.java" afterPath="$PROJECT_DIR$/src/java/view/MainMenuView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/PrintReportView.java" afterPath="$PROJECT_DIR$/src/java/view/PrintReportView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/SaveGameView.java" afterPath="$PROJECT_DIR$/src/java/view/SaveGameView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/SellToBlacksmithView.java" afterPath="$PROJECT_DIR$/src/java/view/SellToBlacksmithView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/TavernView.java" afterPath="$PROJECT_DIR$/src/java/view/TavernView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/View.java" afterPath="$PROJECT_DIR$/src/java/view/View.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/WorldMapView.java" afterPath="$PROJECT_DIR$/src/java/view/WorldMapView.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +51,7 @@
       <file leaf-file-name="Item.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/java/model/Item.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-544">
+            <state relative-caret-position="119">
               <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
               <folding />
             </state>
@@ -97,8 +119,6 @@
         <option value="$PROJECT_DIR$/src/MountKabru.java" />
         <option value="$PROJECT_DIR$/src/java/view/BlacksmithView.java" />
         <option value="$PROJECT_DIR$/src/java/view/HelpMenuView.java" />
-        <option value="$PROJECT_DIR$/src/java/view/PrintReportView.java" />
-        <option value="$PROJECT_DIR$/src/java/view/SellToBlacksmithView.java" />
         <option value="$PROJECT_DIR$/src/java/view/AdventureView.java" />
         <option value="$PROJECT_DIR$/src/java/exceptions/ActorControlException.java" />
         <option value="$PROJECT_DIR$/src/java/exceptions/GameControlException.java" />
@@ -128,8 +148,16 @@
         <option value="$PROJECT_DIR$/src/java/view/TavernView.java" />
         <option value="$PROJECT_DIR$/src/java/control/InventoryControl.java" />
         <option value="$PROJECT_DIR$/src/java/model/Inventory.java" />
+        <option value="$PROJECT_DIR$/src/java/view/SellToBlacksmithView.java" />
+        <option value="$PROJECT_DIR$/src/java/view/PrintReportView.java" />
       </list>
     </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="525" />
+    <option name="width" value="1919" />
+    <option name="height" value="550" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -189,13 +217,6 @@
               <item name="Mount-Kabru-3.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mountKabru" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mount-Kabru-3.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mount-Kabru-3.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -211,6 +232,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="java" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -223,7 +249,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MountKabru">
+    <configuration name="MountKabru" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="java.MountKabru" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Mount-Kabru-3.0" />
+      <envs />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -305,6 +350,11 @@
       <properties />
       <listeners />
     </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.MountKabru" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -325,13 +375,14 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -415,22 +466,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/view/PrintReportView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/view/SellToBlacksmithView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -534,10 +569,10 @@
           <caret line="175" column="16" lean-forward="true" selection-start-line="175" selection-start-column="16" selection-end-line="175" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1511194407393" expanded="false" signature="5838:5849" ph=" { " />
-            <marker date="1511194407393" expanded="false" signature="5878:5884" ph=" }" />
-            <marker date="1511194407393" expanded="false" signature="5917:5928" ph=" { " />
-            <marker date="1511194407393" expanded="false" signature="5943:5949" ph=" }" />
+            <marker date="1511195603109" expanded="false" signature="5705:5716" ph=" { " />
+            <marker date="1511195603109" expanded="false" signature="5745:5751" ph=" }" />
+            <marker date="1511195603109" expanded="false" signature="5784:5795" ph=" { " />
+            <marker date="1511195603109" expanded="false" signature="5810:5816" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -587,8 +622,8 @@
           <caret line="25" column="50" lean-forward="false" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1511194407550" expanded="false" signature="368:379" ph=" { " />
-            <marker date="1511194407550" expanded="false" signature="443:449" ph=" }" />
+            <marker date="1511195603281" expanded="false" signature="357:368" ph=" { " />
+            <marker date="1511195603281" expanded="false" signature="432:438" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -636,7 +671,7 @@
         <state relative-caret-position="45">
           <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -654,7 +689,7 @@
         <state relative-caret-position="68">
           <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -667,22 +702,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/control/WorldControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/control/HeroControl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="44" column="40" lean-forward="false" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -715,7 +740,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/mountKabru/MountKabru.java">
+    <entry file="file://$PROJECT_DIR$/src/java/MountKabru.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
@@ -755,9 +780,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/view/PrintReportView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/view/SellToBlacksmithView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-825">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/control/WorldControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/model/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-544">
+        <state relative-caret-position="119">
           <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
           <folding />
         </state>
