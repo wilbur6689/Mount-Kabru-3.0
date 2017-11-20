@@ -66,7 +66,7 @@ public class WorldControl {
         locations[3][6].setEvent(events[EventControl.EventType.mountainEvent7.ordinal()][EventControl.pickRandomEvent()]);
         locations[3][7].setEvent(events[EventControl.EventType.mountainEvent8.ordinal()][EventControl.pickRandomEvent()]);
 
-        //java.MountKabru.getCurrentGame().getWorld().setLocations(locations);
+        //MountKabru.getCurrentGame().getWorld().setLocations(locations);
     }
 
     public static Location getLocation(int row, int column) {

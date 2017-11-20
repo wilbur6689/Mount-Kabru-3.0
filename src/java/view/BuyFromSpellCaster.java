@@ -96,7 +96,7 @@ public class BuyFromSpellCaster extends View {
         MountKabru.getCurrentGame().getHero().getInventory().setSpellSlot(Item.summonDemons);
         int spellAttack = MountKabru.getCurrentGame().getHero().getInventory().getSpellSlot().getSpellAttackValue();
         MountKabru.getCurrentGame().getHero().setSpellAttack(spellAttack);
-        //this.console.println(java.MountKabru.getHero().getAttack());
+        //this.console.println(MountKabru.getHero().getAttack());
         this.console.println("Its been a pleasure to serve you"
                 + "\nThank you for your Business ");
 
