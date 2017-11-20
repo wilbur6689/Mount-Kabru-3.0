@@ -2,9 +2,96 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="303d4ebc-ab3b-4845-85a1-2dc91d869a00" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/MountKabru.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/control/WorldControl.java" afterPath="$PROJECT_DIR$/src/java/control/WorldControl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/view/BuyFromSpellCaster.java" afterPath="$PROJECT_DIR$/src/java/view/BuyFromSpellCaster.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/MountKabru.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/control/ActorControl$ActorGroup.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/control/ActorControl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/control/BlacksmithControl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/control/EventControl$EventType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/control/EventControl$goldEventType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/control/EventControl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/control/GameControl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/control/HeroControl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/control/InventoryControl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/control/TavernControl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/control/WorldControl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/exceptions/ActorControlException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/exceptions/GameControlException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/exceptions/NumberFormatException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/exceptions/TavernControlException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/model/Actor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/model/Event.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/model/Game.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/model/Hero.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/model/Inventory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/model/Item.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/model/Location.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/model/Player.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/model/World.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/view/AdventureView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/view/AttackMonsView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/view/BlacksmithView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/view/BuyArmorView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/view/BuyFromSpellCaster.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/view/BuyWeaponView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/view/DrinkPotionView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/view/ErrorView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/view/GameMenuView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/view/HelpMenuView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/view/LoadGameView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/view/MainMenuView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/view/NewCharView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/view/PrintReportView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/view/SaveGameView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/view/SellToBlacksmithView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/view/StartProgramView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/view/TavernView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/view/View.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/view/ViewInterface.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mount-Kabru-3.0/java/view/WorldMapView.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/MountKabru.java" afterPath="$PROJECT_DIR$/src/kabru/MountKabru.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/control/ActorControl.java" afterPath="$PROJECT_DIR$/src/kabru/control/ActorControl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/control/BlacksmithControl.java" afterPath="$PROJECT_DIR$/src/kabru/control/BlacksmithControl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/control/EventControl.java" afterPath="$PROJECT_DIR$/src/kabru/control/EventControl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/control/GameControl.java" afterPath="$PROJECT_DIR$/src/kabru/control/GameControl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/control/HeroControl.java" afterPath="$PROJECT_DIR$/src/kabru/control/HeroControl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/control/InventoryControl.java" afterPath="$PROJECT_DIR$/src/kabru/control/InventoryControl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/control/TavernControl.java" afterPath="$PROJECT_DIR$/src/kabru/control/TavernControl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/control/WorldControl.java" afterPath="$PROJECT_DIR$/src/kabru/control/WorldControl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/exceptions/ActorControlException.java" afterPath="$PROJECT_DIR$/src/kabru/exceptions/ActorControlException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/exceptions/GameControlException.java" afterPath="$PROJECT_DIR$/src/kabru/exceptions/GameControlException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/exceptions/NumberFormatException.java" afterPath="$PROJECT_DIR$/src/kabru/exceptions/NumberFormatException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/exceptions/TavernControlException.java" afterPath="$PROJECT_DIR$/src/kabru/exceptions/TavernControlException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/model/Actor.java" afterPath="$PROJECT_DIR$/src/kabru/model/Actor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/model/Event.java" afterPath="$PROJECT_DIR$/src/kabru/model/Event.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/model/Game.java" afterPath="$PROJECT_DIR$/src/kabru/model/Game.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/model/Hero.java" afterPath="$PROJECT_DIR$/src/kabru/model/Hero.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/model/Inventory.java" afterPath="$PROJECT_DIR$/src/kabru/model/Inventory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/model/Item.java" afterPath="$PROJECT_DIR$/src/kabru/model/Item.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/model/Location.java" afterPath="$PROJECT_DIR$/src/kabru/model/Location.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/model/Player.java" afterPath="$PROJECT_DIR$/src/kabru/model/Player.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/model/World.java" afterPath="$PROJECT_DIR$/src/kabru/model/World.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/view/AdventureView.java" afterPath="$PROJECT_DIR$/src/kabru/view/AdventureView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/view/AttackMonsView.java" afterPath="$PROJECT_DIR$/src/kabru/view/AttackMonsView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/view/BlacksmithView.java" afterPath="$PROJECT_DIR$/src/kabru/view/BlacksmithView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/view/BuyArmorView.java" afterPath="$PROJECT_DIR$/src/kabru/view/BuyArmorView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/view/BuyFromSpellCaster.java" afterPath="$PROJECT_DIR$/src/kabru/view/BuyFromSpellCaster.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/view/BuyWeaponView.java" afterPath="$PROJECT_DIR$/src/kabru/view/BuyWeaponView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/view/DrinkPotionView.java" afterPath="$PROJECT_DIR$/src/kabru/view/DrinkPotionView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/view/ErrorView.java" afterPath="$PROJECT_DIR$/src/kabru/view/ErrorView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/view/GameMenuView.java" afterPath="$PROJECT_DIR$/src/kabru/view/GameMenuView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/view/HelpMenuView.java" afterPath="$PROJECT_DIR$/src/kabru/view/HelpMenuView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/view/LoadGameView.java" afterPath="$PROJECT_DIR$/src/kabru/view/LoadGameView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/view/MainMenuView.java" afterPath="$PROJECT_DIR$/src/kabru/view/MainMenuView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/view/NewCharView.java" afterPath="$PROJECT_DIR$/src/kabru/view/NewCharView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/view/PrintReportView.java" afterPath="$PROJECT_DIR$/src/kabru/view/PrintReportView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/view/SaveGameView.java" afterPath="$PROJECT_DIR$/src/kabru/view/SaveGameView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/view/SellToBlacksmithView.java" afterPath="$PROJECT_DIR$/src/kabru/view/SellToBlacksmithView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/view/StartProgramView.java" afterPath="$PROJECT_DIR$/src/kabru/view/StartProgramView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/view/TavernView.java" afterPath="$PROJECT_DIR$/src/kabru/view/TavernView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/view/View.java" afterPath="$PROJECT_DIR$/src/kabru/view/View.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/view/ViewInterface.java" afterPath="$PROJECT_DIR$/src/kabru/view/ViewInterface.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/view/WorldMapView.java" afterPath="$PROJECT_DIR$/src/kabru/view/WorldMapView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,36 +103,102 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="InventoryControl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/control/InventoryControl.java">
+      <file leaf-file-name="AdventureView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kabru/view/AdventureView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="88" lean-forward="false" selection-start-line="15" selection-start-column="88" selection-end-line="15" selection-end-column="88" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Item.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/java/model/Item.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="109" lean-forward="true" selection-start-line="21" selection-start-column="109" selection-end-line="21" selection-end-column="109" />
+            <state relative-caret-position="204">
+              <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Inventory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/model/Inventory.java">
+      <file leaf-file-name="AttackMonsView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kabru/view/AttackMonsView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="68" lean-forward="false" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="95">
+              <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuyFromSpellCaster.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kabru/view/BuyFromSpellCaster.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuyWeaponView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kabru/view/BuyWeaponView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameMenuView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kabru/view/GameMenuView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainMenuView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kabru/view/MainMenuView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrintReportView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kabru/view/PrintReportView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SaveGameView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kabru/view/SaveGameView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TavernView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kabru/view/TavernView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/kabru/view/View.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,17 +239,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/java/model/Game.java" />
-        <option value="$PROJECT_DIR$/src/java/control/BlacksmithControl.java" />
-        <option value="$PROJECT_DIR$/src/java/exceptions/TavernControlException.java" />
-        <option value="$PROJECT_DIR$/src/java/model/Actor.java" />
-        <option value="$PROJECT_DIR$/src/java/model/Event.java" />
-        <option value="$PROJECT_DIR$/src/java/model/Hero.java" />
-        <option value="$PROJECT_DIR$/src/java/model/Item.java" />
         <option value="$PROJECT_DIR$/src/java/model/Player.java" />
         <option value="$PROJECT_DIR$/src/java/model/Location.java" />
         <option value="$PROJECT_DIR$/src/java/model/World.java" />
-        <option value="$PROJECT_DIR$/src/MountKabru.java" />
         <option value="$PROJECT_DIR$/src/java/view/BlacksmithView.java" />
         <option value="$PROJECT_DIR$/src/java/view/HelpMenuView.java" />
         <option value="$PROJECT_DIR$/src/java/view/AdventureView.java" />
@@ -130,6 +275,21 @@
         <option value="$PROJECT_DIR$/src/java/model/Inventory.java" />
         <option value="$PROJECT_DIR$/src/java/view/SellToBlacksmithView.java" />
         <option value="$PROJECT_DIR$/src/java/view/PrintReportView.java" />
+        <option value="$PROJECT_DIR$/src/kabru/model/Item.java" />
+        <option value="$PROJECT_DIR$/src/kabru/view/ErrorView.java" />
+        <option value="$PROJECT_DIR$/src/MountKabru.java" />
+        <option value="$PROJECT_DIR$/src/kabru/control/HeroControl.java" />
+        <option value="$PROJECT_DIR$/src/kabru/control/InventoryControl.java" />
+        <option value="$PROJECT_DIR$/src/kabru/view/AdventureView.java" />
+        <option value="$PROJECT_DIR$/src/kabru/view/AttackMonsView.java" />
+        <option value="$PROJECT_DIR$/src/kabru/view/BuyFromSpellCaster.java" />
+        <option value="$PROJECT_DIR$/src/kabru/view/BuyWeaponView.java" />
+        <option value="$PROJECT_DIR$/src/kabru/view/GameMenuView.java" />
+        <option value="$PROJECT_DIR$/src/kabru/view/MainMenuView.java" />
+        <option value="$PROJECT_DIR$/src/kabru/view/PrintReportView.java" />
+        <option value="$PROJECT_DIR$/src/kabru/view/SaveGameView.java" />
+        <option value="$PROJECT_DIR$/src/kabru/view/TavernView.java" />
+        <option value="$PROJECT_DIR$/src/kabru/view/View.java" />
       </list>
     </option>
   </component>
@@ -176,27 +336,20 @@
               <item name="Mount-Kabru-3.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mount-Kabru-3.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kabru" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Mount-Kabru-3.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mount-Kabru-3.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kabru" type="462c0819:PsiDirectoryNode" />
               <item name="control" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Mount-Kabru-3.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mount-Kabru-3.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mount-Kabru-3.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mount-Kabru-3.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kabru" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -214,6 +367,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="kabru" />
       <recent name="" />
       <recent name="java" />
     </key>
@@ -230,7 +384,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MountKabru">
+  <component name="RunManager" selected="Application.MountKabru (1)">
+    <configuration name="MountKabru (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="MountKabru" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Mount-Kabru-3.0" />
+      <envs />
+    </configuration>
     <configuration name="MountKabru" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -331,9 +499,14 @@
       <properties />
       <listeners />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.MountKabru" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MountKabru (1)" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.MountKabru" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.MountKabru (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MountKabru" />
       </list>
     </recent_temporary>
   </component>
@@ -355,31 +528,31 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5663043" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -398,7 +571,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/model/Location.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/model/Location.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
@@ -406,7 +579,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/model/Hero.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/model/Hero.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
@@ -414,7 +587,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/model/Game.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/model/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
@@ -422,7 +595,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/model/Event.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/model/Event.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
@@ -430,7 +603,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/model/Actor.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/model/Actor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
@@ -440,7 +613,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/model/World.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/model/World.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="21" column="67" lean-forward="false" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
@@ -450,7 +623,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/exceptions/TavernControlException.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/exceptions/TavernControlException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -458,7 +631,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/exceptions/NumberFormatException.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/exceptions/NumberFormatException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -466,7 +639,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/exceptions/GameControlException.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/exceptions/GameControlException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -474,7 +647,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/exceptions/ActorControlException.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/exceptions/ActorControlException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -482,7 +655,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/view/BlacksmithView.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/view/BlacksmithView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="54" column="15" lean-forward="true" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
@@ -490,45 +663,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/view/BuyWeaponView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1190">
-          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/view/BuyFromSpellCaster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/view/AttackMonsView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1207">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/view/AdventureView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="142" column="11" lean-forward="false" selection-start-line="112" selection-start-column="10" selection-end-line="142" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/view/DrinkPotionView.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/view/DrinkPotionView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
@@ -536,29 +671,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/view/ErrorView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/view/GameMenuView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="175" column="16" lean-forward="true" selection-start-line="175" selection-start-column="16" selection-end-line="175" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1511195603109" expanded="false" signature="5705:5716" ph=" { " />
-            <marker date="1511195603109" expanded="false" signature="5745:5751" ph=" }" />
-            <marker date="1511195603109" expanded="false" signature="5784:5795" ph=" { " />
-            <marker date="1511195603109" expanded="false" signature="5810:5816" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/view/BuyArmorView.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/view/BuyArmorView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="34" />
@@ -566,7 +679,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/view/HelpMenuView.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/view/HelpMenuView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
@@ -574,42 +687,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/view/LoadGameView.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/view/LoadGameView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
-            <marker date="1511194407234" expanded="false" signature="335:346" ph=" { " />
-            <marker date="1511194407234" expanded="false" signature="402:408" ph=" }" />
+            <marker date="1511197498762" expanded="false" signature="337:348" ph=" { " />
+            <marker date="1511197498762" expanded="false" signature="404:410" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/view/NewCharView.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/view/NewCharView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-596">
           <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1511194407469" expanded="false" signature="455:462" ph=" { " />
-            <marker date="1511194407469" expanded="false" signature="496:503" ph=" }" />
+            <marker date="1511197498923" expanded="false" signature="388:395" ph=" { " />
+            <marker date="1511197498923" expanded="false" signature="429:436" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/view/SaveGameView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="50" lean-forward="false" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1511195603281" expanded="false" signature="357:368" ph=" { " />
-            <marker date="1511195603281" expanded="false" signature="432:438" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/view/StartProgramView.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/view/StartProgramView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -619,17 +720,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/view/ViewInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/view/ViewInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -637,7 +728,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/view/WorldMapView.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/view/WorldMapView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="770">
           <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
@@ -647,7 +738,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/control/ActorControl.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/control/ActorControl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
@@ -657,7 +748,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/control/BlacksmithControl.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/control/BlacksmithControl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -665,7 +756,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/control/EventControl.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/control/EventControl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
@@ -675,7 +766,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/control/TavernControl.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/control/TavernControl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
@@ -683,17 +774,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/control/HeroControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="40" lean-forward="false" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/control/GameControl.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/control/GameControl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
@@ -703,17 +784,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/view/MainMenuView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="60" column="5" lean-forward="false" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/model/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/model/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -721,55 +792,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MountKabru.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/view/TavernView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="132" column="95" lean-forward="true" selection-start-line="132" selection-start-column="12" selection-end-line="132" selection-end-column="95" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/model/Inventory.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/model/Inventory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="23" column="68" lean-forward="false" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+          <caret line="22" column="68" lean-forward="false" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/control/InventoryControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="88" lean-forward="false" selection-start-line="15" selection-start-column="88" selection-end-line="15" selection-end-column="88" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/view/PrintReportView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/view/SellToBlacksmithView.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/view/SellToBlacksmithView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-825">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="34" />
@@ -777,7 +810,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/control/WorldControl.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/control/WorldControl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
@@ -787,10 +820,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/model/Item.java">
+    <entry file="file://$PROJECT_DIR$/src/kabru/model/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="109" lean-forward="true" selection-start-line="21" selection-start-column="109" selection-end-line="21" selection-end-column="109" />
+        <state relative-caret-position="170">
+          <caret line="10" column="78" lean-forward="true" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kabru/view/ErrorView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kabru/MountKabru.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kabru/control/HeroControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kabru/control/InventoryControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kabru/view/AdventureView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kabru/view/AttackMonsView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kabru/view/BuyFromSpellCaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kabru/view/BuyWeaponView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kabru/view/GameMenuView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kabru/view/MainMenuView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kabru/view/PrintReportView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kabru/view/SaveGameView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kabru/view/TavernView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kabru/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
           <folding />
         </state>
       </provider>
