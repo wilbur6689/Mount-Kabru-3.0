@@ -1,6 +1,6 @@
 package java.control;
 
-import java.mountKabru.MountKabru;
+import java.MountKabru;
 
 import java.util.Scanner;
 

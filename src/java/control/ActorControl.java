@@ -4,7 +4,7 @@ import java.exceptions.ActorControlException;
 import java.model.Actor;
 import java.model.Hero;
 import java.util.Arrays;
-import java.mountKabru.MountKabru;
+import java.MountKabru;
 
 /**
  * Created by badgerwaves on 2/10/16.

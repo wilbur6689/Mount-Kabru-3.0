@@ -6,7 +6,7 @@
 package java.view;
 
 import java.io.PrintWriter;
-import java.mountKabru.MountKabru;
+import java.MountKabru;
 
 /**
  *

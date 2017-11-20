@@ -3,7 +3,7 @@ package java.view;
 
 import java.control.TavernControl;
 import java.model.Item;
-import java.mountKabru.MountKabru;
+import java.MountKabru;
 import java.util.List;
 
 import static java.lang.Integer.parseInt;

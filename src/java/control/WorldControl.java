@@ -4,7 +4,7 @@ import java.exceptions.GameControlException;
 import java.model.Event;
 import java.model.Location;
 import java.model.World;
-import java.mountKabru.MountKabru;
+import java.MountKabru;
 
 /**
  * Created by badgerwaves on 2/10/16.
@@ -66,7 +66,7 @@ public class WorldControl {
         locations[3][6].setEvent(events[EventControl.EventType.mountainEvent7.ordinal()][EventControl.pickRandomEvent()]);
         locations[3][7].setEvent(events[EventControl.EventType.mountainEvent8.ordinal()][EventControl.pickRandomEvent()]);
 
-        //java.mountKabru.MountKabru.getCurrentGame().getWorld().setLocations(locations);
+        //java.MountKabru.getCurrentGame().getWorld().setLocations(locations);
     }
 
     public static Location getLocation(int row, int column) {

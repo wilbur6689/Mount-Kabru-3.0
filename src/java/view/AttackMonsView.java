@@ -14,8 +14,7 @@ import java.model.Event;
 import java.model.Location;
 import java.model.World;
 
-import java.util.Scanner;
-import java.mountKabru.MountKabru;
+import java.MountKabru;
 
 /**
  *

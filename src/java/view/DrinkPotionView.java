@@ -5,8 +5,6 @@
  */
 package java.view;
 
-import java.mountKabru.MountKabru;
-
 /**
  *
  * @author wibur

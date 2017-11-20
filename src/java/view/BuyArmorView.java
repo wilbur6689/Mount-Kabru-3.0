@@ -6,7 +6,7 @@
 package java.view;
 
 import java.model.Item;
-import java.mountKabru.MountKabru;
+import java.MountKabru;
 
 import static java.lang.Integer.parseInt;
 

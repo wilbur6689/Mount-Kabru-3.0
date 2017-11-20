@@ -11,10 +11,9 @@ import java.control.HeroControl;
 import java.control.WorldControl;
 import java.model.Actor;
 import java.model.Event;
-import java.model.Item;
 import java.model.Location;
 import java.model.World;
-import java.mountKabru.MountKabru;
+import java.MountKabru;
 
 /**
  *

@@ -6,7 +6,7 @@
 package java.view;
 
 import java.control.GameControl;
-import java.mountKabru.MountKabru;
+import java.MountKabru;
 
 /**
  *

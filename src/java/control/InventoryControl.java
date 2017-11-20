@@ -2,7 +2,7 @@ package java.control;
 
 import java.model.Inventory;
 import java.model.Item;
-import java.mountKabru.MountKabru;
+import java.MountKabru;
 
 /**
  * Created by badgerwaves on 2/10/16.

@@ -2,7 +2,7 @@ package java.control;
 
 import java.model.Actor;
 import java.model.Event;
-import java.mountKabru.MountKabru;
+import java.MountKabru;
 
 
 /**

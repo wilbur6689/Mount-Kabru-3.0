@@ -8,7 +8,7 @@ package java.view;
 import java.control.GameControl;
 import java.exceptions.GameControlException;
 import java.model.Player;
-import java.mountKabru.MountKabru;
+import java.MountKabru;
 
 /**
  *

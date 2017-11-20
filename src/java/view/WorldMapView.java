@@ -3,7 +3,7 @@ package java.view;
 
 import java.control.WorldControl;
 import java.model.Location;
-import java.mountKabru.MountKabru;
+import java.MountKabru;
 
 
 /**

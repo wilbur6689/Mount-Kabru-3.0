@@ -5,14 +5,9 @@
  */
 package java.view;
 
-import java.control.GameControl;
 import java.control.HeroControl;
-import java.control.InventoryControl;
-import java.model.Hero;
 import java.model.Location;
-import java.mountKabru.MountKabru;
-
-import java.util.Scanner;
+import java.MountKabru;
 
 
 /**

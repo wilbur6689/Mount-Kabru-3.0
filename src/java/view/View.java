@@ -2,7 +2,7 @@ package java.view;
 
 import java.io.BufferedReader;
 import java.io.PrintWriter;
-import java.mountKabru.MountKabru;
+import java.MountKabru;
 
 public abstract class View implements ViewInterface {
 
