@@ -5,7 +5,7 @@ import kabru.model.Location;
 import kabru.model.World;
 import kabru.exceptions.GameControlException;
 
-import java.MountKabru;
+import kabru.MountKabru;
 
 /**
  * Created by badgerwaves on 2/10/16.

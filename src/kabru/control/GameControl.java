@@ -9,7 +9,7 @@ import kabru.model.Game;
 import kabru.model.Inventory;
 import kabru.model.Player;
 import kabru.model.World;
-import java.MountKabru;
+import kabru.MountKabru;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

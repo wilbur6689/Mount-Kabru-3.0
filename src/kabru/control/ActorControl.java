@@ -5,7 +5,7 @@ import kabru.model.Actor;
 import kabru.model.Hero;
 
 import java.util.Arrays;
-import java.MountKabru;
+import kabru.MountKabru;
 
 /**
  * Created by badgerwaves on 2/10/16.

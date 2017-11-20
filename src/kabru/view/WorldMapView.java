@@ -4,7 +4,7 @@ package kabru.view;
 import kabru.control.WorldControl;
 import kabru.model.Location;
 
-import java.MountKabru;
+import kabru.MountKabru;
 
 
 /**
