@@ -5,6 +5,9 @@ import kabru.model.Inventory;
 
 import kabru.MountKabru;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by badgerwaves on 2/10/16.
  */
@@ -12,18 +15,24 @@ public class InventoryControl {
     
     
     public static Inventory createInventory() {
-        
+
         
         Inventory inventory = new Inventory(Item.bareHands, Item.clothes, Item.lameMagic);
+
         
-        
-         MountKabru.getCurrentGame().getHero().setInventory(inventory);
-         int attack = MountKabru.getCurrentGame().getHero().getInventory().getWeaponSlot().getAttackValue();
-         int defense = MountKabru.getCurrentGame().getHero().getInventory().getWeaponSlot().getDefenseValue();
-         int spellAttack = MountKabru.getCurrentGame().getHero().getInventory().getSpellSlot().getSpellAttackValue();
-         MountKabru.getCurrentGame().getHero().setAttack(attack);
-         MountKabru.getCurrentGame().getHero().setDefense(defense);
-         MountKabru.getCurrentGame().getHero().setSpellAttack(spellAttack);
+        MountKabru.getCurrentGame().getHero().setInventory(inventory);
+        int attack = MountKabru.getCurrentGame().getHero().getInventory().getWeaponSlot().getAttackValue();
+        int defense = MountKabru.getCurrentGame().getHero().getInventory().getWeaponSlot().getDefenseValue();
+        int spellAttack = MountKabru.getCurrentGame().getHero().getInventory().getSpellSlot().getSpellAttackValue();
+
+
+        List<Item> items = new ArrayList<>();
+        items.add(Item.healthPotion10);
+
+        MountKabru.getCurrentGame().getHero().getInventory().setItems(items);
+        MountKabru.getCurrentGame().getHero().setAttack(attack);
+        MountKabru.getCurrentGame().getHero().setDefense(defense);
+        MountKabru.getCurrentGame().getHero().setSpellAttack(spellAttack);
          
         
         return inventory;
