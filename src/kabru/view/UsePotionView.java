@@ -5,6 +5,7 @@ import kabru.control.HeroControl;
 import kabru.model.Item;
 
 import java.util.List;
+import java.util.Scanner;
 import java.util.stream.Collectors;
 
 public class UsePotionView extends View {
@@ -56,19 +57,24 @@ public class UsePotionView extends View {
         //look through the inventory for a health potion
         List<Item> items = MountKabru.getCurrentGame().getHero().getInventory().getItems();
         List<Item> healthPotions = items.stream().filter(item -> item.getHealthValue() > 0).collect(Collectors.toList());
+        int index = 0;
 
         String healthDisplay = "\n-------------------------------------------------"
                     + "\n"
                     + "\n      Here are your health potions: \n";
-
         for (Item item : healthPotions){
-            healthDisplay += item.getName().toString() + "\n";
+            healthDisplay += " "+ index + ". " + item.getName().toString() + "\n";
+            index++;
         }
-
         healthDisplay += "\n-------------------------------------------------" +
                       "\n";
 
         this.console.println(healthDisplay);
+
+        Scanner scanner = new Scanner(System.in);
+
+        HeroControl.healHero(healthPotions.get(scanner.nextInt()));
+
     }
 
     private void drinkMana() {
@@ -76,19 +82,25 @@ public class UsePotionView extends View {
         //look through the inventory for a mana potion
         List<Item> items = MountKabru.getCurrentGame().getHero().getInventory().getItems();
         List<Item> manaPotions = items.stream().filter(item -> item.getManaValue() > 0).collect(Collectors.toList());
+        int index = 0;
 
         String manaDisplay = "\n-------------------------------------------------"
                 + "\n"
                 + "\n      Here are your mana potions: \n";
 
         for (Item item : manaPotions){
-            manaDisplay += item.getName().toString() + "\n";
+            manaDisplay += " "+ index + ". " + item.getName().toString() + "\n";
+            index++;
         }
 
         manaDisplay += "\n-------------------------------------------------" +
                 "\n";
 
         this.console.println(manaDisplay);
+
+        Scanner scanner = new Scanner(System.in);
+
+        HeroControl.manaHero(manaPotions.get(scanner.nextInt()));
 
     }
 
