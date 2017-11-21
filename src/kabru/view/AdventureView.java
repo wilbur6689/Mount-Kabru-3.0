@@ -148,7 +148,7 @@ public class AdventureView extends View {
 
     private void checkStats() {
         HeroControl heroControl = new HeroControl();
-        this.console.println(heroControl.displayCharStats());
+        this.console.println(heroControl.displayHeroStats());
         heroControl.promptEnterKey();
     }
 

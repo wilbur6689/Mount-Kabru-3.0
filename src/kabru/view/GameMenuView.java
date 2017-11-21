@@ -37,6 +37,7 @@ public class GameMenuView extends View {
                + "\n  SC- Visit the [S]pell[C]aster"
                + "\n  P - Visit the [P]rint Shop"
                + "\n  C - [C]haracter stats"
+               + "\n  I - [I]nventory "
                + "\n  H - please [H]elp!"
                + "\n  S - [S]ave Game"
                + "\n  L - [L]oad Game"
@@ -70,6 +71,9 @@ public class GameMenuView extends View {
                 break;
             case "C": // visit the blacksmith in town
                 this.goCharStats();
+                break;
+            case "I": //show the hero inventory
+                this.goHeroInv();
                 break;
             case "H": //help menu
                 this.displayHelpMenu();
@@ -152,9 +156,15 @@ public class GameMenuView extends View {
     private void goCharStats() {
 
         HeroControl heroControl = new HeroControl();
-        this.console.println(heroControl.displayCharStats());
+        this.console.println(heroControl.displayHeroStats());
         heroControl.promptEnterKey();
 
+    }
+
+    private void goHeroInv() {
+        HeroControl heroControl = new HeroControl();
+        this.console.println(heroControl.displayHeroInv());
+        heroControl.promptEnterKey();
     }
     
     

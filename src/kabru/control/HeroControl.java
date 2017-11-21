@@ -1,12 +1,14 @@
 package kabru.control;
 
 import kabru.MountKabru;
+import kabru.model.Item;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class HeroControl {
 
-    public String displayCharStats(){
+    public String displayHeroStats(){
 
         String heroName = MountKabru.getCurrentGame().getHero().getHeroName();
         String heroClass = MountKabru.getCurrentGame().getHero().getHeroClassType();
@@ -39,15 +41,30 @@ public class HeroControl {
                         + "\n Spell Atk         " + heroSpellAttack
                         + "\n Gold:             " + heroGold
                         + "\n"
-                        + "\n Weapon:           " + weaponSlot
-                        + "\n Armor:            " + armorSlot
-                        + "\n Spell:            " + spellSlot
-                        + "\n Inventory:          Coming Soon!!"
-                        + "\n"
                         + "\n"
         );
 
         return stats;
+    }
+
+    public String displayHeroInv() {
+
+        List<Item> items = MountKabru.getCurrentGame().getHero().getInventory().getItems();
+
+        String inventory = "\n"
+                        +  "\n---------------------------------------------" +
+                "\n" +
+                "\n    Current Inventory:" +
+                "\n";
+
+        for (Item item : items){
+            inventory += item.getName().toString() + "\n";
+        }
+
+        inventory += "\n-------------------------------------------" +
+                "\n";
+
+        return inventory;
     }
 
     public void promptEnterKey(){
