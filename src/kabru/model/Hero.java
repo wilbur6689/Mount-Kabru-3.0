@@ -60,12 +60,6 @@ public class Hero extends Actor implements  Serializable  {
         this.inventory = inventory;
     }
 
-    
-
-    
-
-    
-
     public Hero(String heroName, String heroClassType, int levelOfHero, int experience, int mana, int strength) {
         this.heroName = heroName;
         this.heroClassType = heroClassType;

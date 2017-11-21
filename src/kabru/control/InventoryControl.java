@@ -23,7 +23,7 @@ public class InventoryControl {
         MountKabru.getCurrentGame().getHero().setInventory(inventory);
         int attack = MountKabru.getCurrentGame().getHero().getInventory().getWeaponSlot().getAttackValue();
         int defense = MountKabru.getCurrentGame().getHero().getInventory().getWeaponSlot().getDefenseValue();
-        int spellAttack = MountKabru.getCurrentGame().getHero().getInventory().getSpellSlot().getSpellAttackValue();
+        int spellAttack = MountKabru.getCurrentGame().getHero().getInventory().getSpellSlot().getManaValue();
 
 
         List<Item> items = new ArrayList<>();

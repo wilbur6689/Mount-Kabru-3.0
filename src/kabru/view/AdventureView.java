@@ -9,12 +9,11 @@ import kabru.control.ActorControl;
 import kabru.control.EventControl;
 import kabru.control.HeroControl;
 import kabru.control.WorldControl;
-import kabru.model.Actor;
-import kabru.model.Event;
-import kabru.model.Location;
-import kabru.model.World;
+import kabru.model.*;
 
 import kabru.MountKabru;
+
+import java.util.List;
 
 /**
  *
@@ -31,6 +30,7 @@ public class AdventureView extends View {
                 + "\nS - [S]earch for a monster"
                 + "\nP - use a [P]otion"
                 + "\nC - [C]heck your stats"
+                + "\nI - [I]nventory"
                 + "\nR - [R]eturn back to Map"
                 + "\n--------------------------------------");
     }
@@ -50,8 +50,11 @@ public class AdventureView extends View {
             case "P": // use a potion
                 this.usePotion();
                 break;
-            case "C": // view your inventory
+            case "C": // view your stats
                 this.checkStats();
+                break;
+            case "I": //vier your inventory
+                this.checkInv();
                 break;
             case "L": // use a potion
                 this.curLocation();
@@ -109,46 +112,21 @@ public class AdventureView extends View {
     }
 
     private void usePotion() {
-        
-//        String potion = MountKabru.getCurrentGame().getHero().getInventory().getHealthPotionSlot().getName();
-//
-//        if (potion.equals("healthPotion10")) {
-//            int healAmount = MountKabru.getCurrentGame().getHero().getInventory().getHealthPotionSlot().getHealthValue();
-//            int currentHealth = MountKabru.getCurrentGame().getHero().getCurrentHitPoints();
-//            int maxHealth = MountKabru.getCurrentGame().getHero().getMaxHitPoints();
-//
-//            int healedHealth = currentHealth + healAmount;
-//
-//            if (healedHealth > maxHealth) {
-//                healedHealth = maxHealth;
-//            }
-//
-//            MountKabru.getCurrentGame().getHero().setCurrentHitPoints(healedHealth);
-//            MountKabru.getCurrentGame().getHero().getInventory().setHealthPotionSlot(Item.bareHands);
-//
-//            this.console.println("\nyou drink down your health potion and feel refreshed!"
-//                    + "\n"
-//                    + "\n Your Current Hit Points are now: " + MountKabru.getCurrentGame().getHero().getCurrentHitPoints());
-//
-//
-//
-//        } else if (potion.equals("healthPotion20")){
-//            this.console.println("you used a HP10");
-//        } else if (potion.equals("healthPotion30")){
-//            this.console.println("you used a HP10");
-//        } else if (potion.equals("healthPotion40")){
-//            this.console.println("you used a HP40");
-//        } else {
-//            this.console.println("you dont have a potion");
-//        }
-        
-        
+
+        UsePotionView potionView = new UsePotionView();
+        potionView.display();
         
     }
 
     private void checkStats() {
         HeroControl heroControl = new HeroControl();
         this.console.println(heroControl.displayHeroStats());
+        heroControl.promptEnterKey();
+    }
+
+    private void checkInv() {
+        HeroControl heroControl = new HeroControl();
+        this.console.println(heroControl.displayHeroInv());
         heroControl.promptEnterKey();
     }
 

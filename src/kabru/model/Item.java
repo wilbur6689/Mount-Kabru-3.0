@@ -61,7 +61,7 @@ public enum Item implements Serializable{
     private final int defenseValue;
     private final int costValue;
     private final int sellValue;
-    private final int spellAttackValue;
+    private final int manaValue;
     private final int healthValue;
     
     private Game game;
@@ -73,7 +73,7 @@ public enum Item implements Serializable{
         this.defenseValue = defenceValue;
         this.costValue = costValue;
         this.sellValue = sellValue;
-        this.spellAttackValue = manaValue;
+        this.manaValue = manaValue;
         this.healthValue = healthValue;
     }
 
@@ -108,8 +108,8 @@ public enum Item implements Serializable{
 
 
 
-    public int getSpellAttackValue() {
-        return spellAttackValue;
+    public int getManaValue() {
+        return manaValue;
     }
 
 
@@ -131,7 +131,7 @@ public enum Item implements Serializable{
                 + ", defenceValue=" + defenseValue 
                 + ", costValue=" + costValue 
                 + ", sellValue=" + sellValue 
-                + ", manaValue=" + spellAttackValue 
+                + ", manaValue=" + manaValue
                 + ", healthValue=" + healthValue 
                 + ", game=" + game 
                 + '}';
