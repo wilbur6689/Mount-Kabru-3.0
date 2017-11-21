@@ -6,6 +6,7 @@
 package kabru.view;
 
 import kabru.control.GameControl;
+import kabru.control.HeroControl;
 import kabru.exceptions.GameControlException;
 
 /**
@@ -73,7 +74,7 @@ public class NewCharView extends View {
         
         //Need to set Hero Name, strength, Mana
         try { 
-        GameControl.createHero(heroName, answer1, answer2, answer3);
+        HeroControl.createHero(heroName, answer1, answer2, answer3);
         } 
         catch (GameControlException me) {
             this.console.println(me.getMessage());
