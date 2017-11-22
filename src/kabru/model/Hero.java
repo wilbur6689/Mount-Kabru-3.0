@@ -16,7 +16,6 @@ public class Hero extends Actor implements  Serializable  {
     private int levelOfHero;
     private int xpToNextLevel;
     private int experience;
-    private int mana;
     private int strength;
  
     private Location currentLocation;
@@ -30,6 +29,27 @@ public class Hero extends Actor implements  Serializable  {
     public Hero() {
         
     }
+
+    public Hero(String heroName, String heroClassType, int levelOfHero, int xpToNextLevel, int experience, int strength, Player player, Inventory inventory, String name,int maxHitPoints, int currentHitPoints, int defence, int attack, int spellAttack, int xpGained, int gold) {
+        super(name, maxHitPoints, currentHitPoints, defence, attack, spellAttack, xpGained, gold);
+        this.heroName = heroName;
+        this.heroClassType = heroClassType;
+        this.levelOfHero = levelOfHero;
+        this.xpToNextLevel = xpToNextLevel;
+        this.experience = experience;
+        this.strength = strength;
+        this.player = player;
+        this.inventory = inventory;
+    }
+
+    public Hero(String heroName, String heroClassType, int levelOfHero, int experience, int strength) {
+        this.heroName = heroName;
+        this.heroClassType = heroClassType;
+        this.levelOfHero = levelOfHero;
+        this.experience = experience;
+        this.strength = strength;
+    }
+
 
     public Player getPlayer() {
         return player;
@@ -47,29 +67,6 @@ public class Hero extends Actor implements  Serializable  {
         this.inventory = inventory;
     }
 
-    public Hero(String heroName, String heroClassType, int levelOfHero, int xpToNextLevel, int experience, int mana, int strength, Player player, Inventory inventory, String name,int maxHitPoints, int currentHitPoints, int defence, int attack, int spellAttack, int xpGained, int gold) {
-        super(name, maxHitPoints, currentHitPoints, defence, attack, spellAttack, xpGained, gold);
-        this.heroName = heroName;
-        this.heroClassType = heroClassType;
-        this.levelOfHero = levelOfHero;
-        this.xpToNextLevel = xpToNextLevel;
-        this.experience = experience;
-        this.mana = mana;
-        this.strength = strength;
-        this.player = player;
-        this.inventory = inventory;
-    }
-
-    public Hero(String heroName, String heroClassType, int levelOfHero, int experience, int mana, int strength) {
-        this.heroName = heroName;
-        this.heroClassType = heroClassType;
-        this.levelOfHero = levelOfHero;
-        this.experience = experience;
-        this.mana = mana;
-        this.strength = strength;
-    }
-
-    
     public String getHeroName() {
         return heroName;
     }
@@ -101,8 +98,6 @@ public class Hero extends Actor implements  Serializable  {
     public void setXpToNextLevel(int xpToNextLevel) {
         this.xpToNextLevel = xpToNextLevel;
     }
-    
-    
 
     public int getExperience() {
         return experience;
@@ -112,15 +107,7 @@ public class Hero extends Actor implements  Serializable  {
         this.experience = experience;
     }
 
-    public int getMana() {
-        return mana;
-    }
-
-    public void setMana(int mana) {
-        this.mana = mana;
-    }
-    
-     public int getStrength() {
+    public int getStrength() {
         return strength;
     }
 
@@ -153,7 +140,6 @@ public class Hero extends Actor implements  Serializable  {
         hash = 29 * hash + Objects.hashCode(this.heroClassType);
         hash = 29 * hash + this.levelOfHero;
         hash = 29 * hash + this.experience;
-        hash = 29 * hash + this.mana;
         hash = 29 * hash + this.strength;
         return hash;
     }
@@ -176,9 +162,6 @@ public class Hero extends Actor implements  Serializable  {
         if (this.experience != other.experience) {
             return false;
         }
-        if (this.mana != other.mana) {
-            return false;
-        }
         if (this.strength != other.strength) {
             return false;
         }
@@ -190,7 +173,7 @@ public class Hero extends Actor implements  Serializable  {
 
     @Override
     public String toString() {
-        return "Here is your Hero:{" + "\n Hero Name = " + heroName + "\n Hero Class Type = " + heroClassType + "\n Level of Your Hero = " + levelOfHero + "\n Experience = " + experience + "\n Mana = " + mana + "\n Strength = " + strength + '}';
+        return "Here is your Hero:{" + "\n Hero Name = " + heroName + "\n Hero Class Type = " + heroClassType + "\n Level of Your Hero = " + levelOfHero + "\n Experience = " + experience + "\n Strength = " + strength + '}';
     }
     
     

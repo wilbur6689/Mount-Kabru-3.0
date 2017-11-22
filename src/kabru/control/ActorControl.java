@@ -12,13 +12,6 @@ import kabru.MountKabru;
  */
 public class ActorControl {
 
-    public Hero newHero(String heroName) {
-
-        Hero hero = new Hero(heroName, "Warrior", 1, 100, 5, 5);
-
-        return hero;
-    }
-
     public static Actor[][] createActors() {
 
 

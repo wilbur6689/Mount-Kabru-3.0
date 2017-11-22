@@ -11,6 +11,7 @@ import kabru.control.ActorControl;
 import kabru.control.GameControl;
 import kabru.control.WorldControl;
 import kabru.model.Event;
+import kabru.model.Item;
 import kabru.model.Location;
 import kabru.model.World;
 
@@ -215,118 +216,124 @@ public class AttackMonsView extends View {
     private void castSpell() {
 
         int spellAttack = MountKabru.getCurrentGame().getHero().getSpellAttack();
-        int mana = MountKabru.getCurrentGame().getHero().getMana();
+        int mana = MountKabru.getCurrentGame().getHero().getCurrentManaPoints();
+        int spellMana = MountKabru.getCurrentGame().getHero().getInventory().getSpellSlot().getManaValue();
         int opponentDefense = MountKabru.getCurrentGame().getHero().getFoundMonster().getDefense();
         int damageDoneToMonster = 0;
 
-        try {
-            damageDoneToMonster = ActorControl.spellDamage(spellAttack, mana, opponentDefense);
-            this.console.println("\n*** You Cast a spell at the       ***"
-                    + "\n*** monster          ***"
-                    + "\n*** You do " + damageDoneToMonster + " Damage    ***");
 
-        } catch (ActorControlException me) {
-            this.console.println(me.getMessage());
-        }
+        if (spellMana < mana){
+            try {
+                damageDoneToMonster = ActorControl.spellDamage(spellAttack, mana, opponentDefense);
+                this.console.println("\n*** You Cast a spell at the       ***"
+                        + "\n*** monster          ***"
+                        + "\n*** You do " + damageDoneToMonster + " Damage    ***");
 
-        int currentHP = MountKabru.getCurrentGame().getHero().getFoundMonster().getCurrentHitPoints();
-        currentHP -= damageDoneToMonster;
-
-        if (currentHP < 0) {
-
-            //say you killed the monster
-            this.console.println("You defied all logic and were able to slay the monster.");
-
-            //set XP
-            int beforeXP = MountKabru.getCurrentGame().getHero().getExperience();
-            int xpGained = MountKabru.getCurrentGame().getHero().getFoundMonster().getXpGained();
-            int afterXP = beforeXP + xpGained;
-
-            MountKabru.getCurrentGame().getHero().setExperience(afterXP);
-            int xpToNextLevel = MountKabru.getCurrentGame().getHero().getXpToNextLevel();
-            if (afterXP > xpToNextLevel) {
-                GameControl.raiseTheLevel();
-                this.console.println("\nYou have worked hard and Gained a Level!!!"
-                                   + "\n you are now level: " + MountKabru.getCurrentGame().getHero().getLevelOfHero());
-                       
+            } catch (ActorControlException me) {
+                this.console.println(me.getMessage());
             }
 
-            //set Gold
-            int beforeGold = MountKabru.getCurrentGame().getHero().getGold();
-            int goldGained = MountKabru.getCurrentGame().getHero().getFoundMonster().getGold();
-            int afterGold = beforeGold + goldGained;
-            MountKabru.getCurrentGame().getHero().setGold(afterGold);
-            MountKabru.getCurrentGame().getHero().getFoundMonster().setCurrentHitPoints(0);
+            int currentHP = MountKabru.getCurrentGame().getHero().getFoundMonster().getCurrentHitPoints();
+            currentHP -= damageDoneToMonster;
 
-            //return back to the adventure view
-            World world = MountKabru.getCurrentGame().getWorld();
-            Location[][] locations = MountKabru.getCurrentGame().getWorld().getLocations();
-            Event[][] events = EventControl.createEvents();
+            if (currentHP < 0) {
 
-            for (int i = 0; i < locations.length; i++) {
-                for (int j = 0; j < locations[i].length - 1; j++) {
-//                events[i][j] = locations[i][j].getEvent();
-                    //System.out.println(locations[i][j].getEvent().getEventType());
+                //say you killed the monster
+                this.console.println("You defied all logic and were able to slay the monster.");
+
+                //set XP
+                int beforeXP = MountKabru.getCurrentGame().getHero().getExperience();
+                int xpGained = MountKabru.getCurrentGame().getHero().getFoundMonster().getXpGained();
+                int afterXP = beforeXP + xpGained;
+
+                MountKabru.getCurrentGame().getHero().setExperience(afterXP);
+                int xpToNextLevel = MountKabru.getCurrentGame().getHero().getXpToNextLevel();
+                if (afterXP > xpToNextLevel) {
+                    GameControl.raiseTheLevel();
+                    this.console.println("\nYou have worked hard and Gained a Level!!!"
+                            + "\n you are now level: " + MountKabru.getCurrentGame().getHero().getLevelOfHero());
+
                 }
+
+                //set Gold
+                int beforeGold = MountKabru.getCurrentGame().getHero().getGold();
+                int goldGained = MountKabru.getCurrentGame().getHero().getFoundMonster().getGold();
+                int afterGold = beforeGold + goldGained;
+                MountKabru.getCurrentGame().getHero().setGold(afterGold);
+                MountKabru.getCurrentGame().getHero().getFoundMonster().setCurrentHitPoints(0);
+
+                //return back to the adventure view
+                World world = MountKabru.getCurrentGame().getWorld();
+                Location[][] locations = MountKabru.getCurrentGame().getWorld().getLocations();
+                Event[][] events = EventControl.createEvents();
+
+                for (int i = 0; i < locations.length; i++) {
+                    for (int j = 0; j < locations[i].length - 1; j++) {
+                        //                events[i][j] = locations[i][j].getEvent();
+                        //System.out.println(locations[i][j].getEvent().getEventType());
+                    }
+                }
+
+                WorldControl.setEventsToLocations(world, events);
+
+            } else {
+                MountKabru.getCurrentGame().getHero().getFoundMonster().setCurrentHitPoints(currentHP);
+
+                this.console.println("The monster has this much life: " + currentHP);
+
+                //Monster attacks you back
+
+                int monsAttack = MountKabru.getCurrentGame().getHero().getFoundMonster().getAttack();
+                int monsSpellAttack = MountKabru.getCurrentGame().getHero().getFoundMonster().getSpellAttack();
+                int playerDef = MountKabru.getCurrentGame().getHero().getDefense();
+                int beforeHP = MountKabru.getCurrentGame().getHero().getCurrentHitPoints();
+
+                int monsDamage = ActorControl.monsterAttack(monsSpellAttack, monsAttack, playerDef);
+                int afterHP = beforeHP - monsDamage;
+
+                this.console.println("\n--------------------------------------------------"
+                        + "\n               You were attacked!!!"
+                        + "\n--------------------------------------------------"
+                        + "\n"
+                        + "\n  the " + MountKabru.getCurrentGame().getHero().getFoundMonster().getName()
+                        + "\n  hit you for " + monsDamage + " Damage!"
+                        + "\n  "
+                        + "\n  You now have " + afterHP + " Hit Points");
+
+
+                if (afterHP < 1) {
+                    //hero dies and its GAME OVER
+                    //load the Main Menu
+                    MountKabru.getCurrentGame().setEndOfGame(true);
+                    this.console.println("\n"
+                            + "\n ---------------------------------------------------------------------"
+                            + "\n"
+                            + "\n   You are fighting bravely but your weapon is getting heavy..."
+                            + "\n"
+                            + "\n   You try to catch your breath...      "
+                            + "\n   "
+                            + "\n   you slowly loose your sight and feel something bash you in the head..."
+                            + "\n"
+                            + "\n   Sorry, you died"
+                            + "\n                                    _"
+                            + "\n                                   { }"
+                            + "\n                                   { }"
+                            + "\n                                 __{ }__"
+                            + "\n                                 \\_____/"
+                            + "\n         __                        | |   "
+                            + "\n        /  \\                       | | "
+                            + "\n       /    \\____ ________         | |         ______"
+                            + "\n   ___/__/\\     |    |____\\        | |        /   _0 \\ "
+                            + "\n  /_____/  \\____|_________/Mmn~    |_|    ~nmM\\____0_/"
+                            + "\n");
+
+                    return;
+                }
+
+                MountKabru.getCurrentGame().getHero().setCurrentHitPoints(afterHP);
             }
-
-            WorldControl.setEventsToLocations(world, events);
-
         } else {
-            MountKabru.getCurrentGame().getHero().getFoundMonster().setCurrentHitPoints(currentHP);
-
-            this.console.println("The monster has this much life: " + currentHP);
-            
-            //Monster attacks you back
-            
-            int monsAttack = MountKabru.getCurrentGame().getHero().getFoundMonster().getAttack();
-            int monsSpellAttack = MountKabru.getCurrentGame().getHero().getFoundMonster().getSpellAttack();
-            int playerDef = MountKabru.getCurrentGame().getHero().getDefense();
-            int beforeHP = MountKabru.getCurrentGame().getHero().getCurrentHitPoints();
-            
-            int monsDamage = ActorControl.monsterAttack(monsSpellAttack, monsAttack, playerDef);
-            int afterHP = beforeHP - monsDamage;
-            
-            this.console.println("\n--------------------------------------------------"
-                               + "\n               You were attacked!!!"
-                               + "\n--------------------------------------------------"
-                               + "\n"
-                               + "\n  the " + MountKabru.getCurrentGame().getHero().getFoundMonster().getName()
-                               + "\n  hit you for " + monsDamage + " Damage!"
-                               + "\n  "
-                               + "\n  You now have " + afterHP + " Hit Points");
-            
-            
-            if (afterHP <1) {
-                //hero dies and its GAME OVER
-                //load the Main Menu
-                MountKabru.getCurrentGame().setEndOfGame(true);
-                this.console.println("\n"
-                        + "\n ---------------------------------------------------------------------"
-                        + "\n"
-                        + "\n   You are fighting bravely but your weapon is getting heavy..."
-                        + "\n"
-                        + "\n   You try to catch your breath...      "
-                        + "\n   "
-                        + "\n   you slowly loose your sight and feel something bash you in the head..."
-                        + "\n"
-                        + "\n   Sorry, you died"
-                        + "\n                                    _"
-                        + "\n                                   { }" 
-                        + "\n                                   { }"
-                        + "\n                                 __{ }__"
-                        + "\n                                 \\_____/"
-                        + "\n         __                        | |   "
-                        + "\n        /  \\                       | | "
-                        + "\n       /    \\____ ________         | |         ______"
-                        + "\n   ___/__/\\     |    |____\\        | |        /   _0 \\ "
-                        + "\n  /_____/  \\____|_________/Mmn~    |_|    ~nmM\\____0_/"
-                        + "\n");
-                
-                return;
-            }
-            
-            MountKabru.getCurrentGame().getHero().setCurrentHitPoints(afterHP);
+            this.console.println("Sorry you dont have enough mana to cast this spell");
         }
 
     }

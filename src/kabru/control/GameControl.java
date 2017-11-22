@@ -115,7 +115,7 @@ public class GameControl {
             //get before stats (with getters) that you want to change(health, Mana,level)
 
             int beforeHealth = MountKabru.getCurrentGame().getHero().getMaxHitPoints();
-            int beforeMana = MountKabru.getCurrentGame().getHero().getMana();
+            int beforeMana = MountKabru.getCurrentGame().getHero().getMaxManaPoints();
             int beforeLvlUp = MountKabru.getCurrentGame().getHero().getLevelOfHero();
             int beforeXpToNextLevel = MountKabru.getCurrentGame().getHero().getXpToNextLevel();
 
@@ -128,7 +128,8 @@ public class GameControl {
 
             MountKabru.getCurrentGame().getHero().setMaxHitPoints(afterHealth);
             MountKabru.getCurrentGame().getHero().setCurrentHitPoints(afterHealth);
-            MountKabru.getCurrentGame().getHero().setMana(afterMana);
+            MountKabru.getCurrentGame().getHero().setCurrentManaPoints(afterMana);
+            MountKabru.getCurrentGame().getHero().setMaxManaPoints(afterMana);
             MountKabru.getCurrentGame().getHero().setLevelOfHero(afterLvlUp);
             MountKabru.getCurrentGame().getHero().setXpToNextLevel(afterXpToNextLevel);
         } else {
@@ -137,7 +138,7 @@ public class GameControl {
 
             int beforeHealth = MountKabru.getCurrentGame().getHero().getMaxHitPoints();
             int beforeStrength = MountKabru.getCurrentGame().getHero().getStrength();
-            int beforeMana = MountKabru.getCurrentGame().getHero().getMana();
+            int beforeMana = MountKabru.getCurrentGame().getHero().getMaxManaPoints();
             int beforeLvlUp = MountKabru.getCurrentGame().getHero().getLevelOfHero();
             int beforeXpToNextLevel = MountKabru.getCurrentGame().getHero().getXpToNextLevel();
             //add stuff and set them to new variables
@@ -153,7 +154,8 @@ public class GameControl {
             MountKabru.getCurrentGame().getHero().setCurrentHitPoints(afterHealth);
             MountKabru.getCurrentGame().getHero().setStrength(afterStrength);
             MountKabru.getCurrentGame().getHero().setLevelOfHero(afterLvlUp);
-            MountKabru.getCurrentGame().getHero().setMana(afterMana);
+            MountKabru.getCurrentGame().getHero().setCurrentManaPoints(afterMana);
+            MountKabru.getCurrentGame().getHero().setMaxManaPoints(afterMana);
             MountKabru.getCurrentGame().getHero().setXpToNextLevel(afterXpToNextLevel);
         }
 

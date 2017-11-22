@@ -66,7 +66,8 @@ public class HeroControl {
         hero.setXpToNextLevel(30);
         hero.setExperience(1);
         hero.setStrength(strength);
-        hero.setMana(mana);
+        hero.setMaxManaPoints(mana);
+        hero.setCurrentManaPoints(mana);
         hero.setMaxHitPoints(20);
         hero.setCurrentHitPoints(20);
         hero.setGold(startGold);
@@ -95,7 +96,7 @@ public class HeroControl {
         int heroExperience = MountKabru.getCurrentGame().getHero().getExperience();
         int heroToNextLvl = MountKabru.getCurrentGame().getHero().getXpToNextLevel();
         int heroStrength = MountKabru.getCurrentGame().getHero().getStrength();
-        int heroMana = MountKabru.getCurrentGame().getHero().getMana();
+        int heroMana = MountKabru.getCurrentGame().getHero().getCurrentManaPoints();
         int heroCurrentHP = MountKabru.getCurrentGame().getHero().getCurrentHitPoints();
         int heroDefence = MountKabru.getCurrentGame().getHero().getDefense();
         int heroAttack = MountKabru.getCurrentGame().getHero().getAttack();
@@ -129,12 +130,21 @@ public class HeroControl {
     public String displayHeroInv() {
 
         List<Item> items = MountKabru.getCurrentGame().getHero().getInventory().getItems();
+        String weaponSlot = MountKabru.getCurrentGame().getHero().getInventory().getWeaponSlot().getName();
+        String armorSlot = MountKabru.getCurrentGame().getHero().getInventory().getArmorSlot().getName();
+        String spellSlot = MountKabru.getCurrentGame().getHero().getInventory().getSpellSlot().getName();
 
-        String inventory = "\n"
-                        +  "\n---------------------------------------------" +
-                "\n" +
-                "\n    Current Inventory:" +
-                "\n";
+        String inventory = ("\n"
+                        +  "\n---------------------------------------------"
+                        +  "\n"
+                        +  "\n    Current Inventory:"
+                        +  "\n"
+                        +  "\n Current Weapon:         " + weaponSlot
+                        +  "\n Current Armor:          " + armorSlot
+                        +  "\n Current Spell:          " + spellSlot
+                        +  "\n Backpack: "
+                        +  "\n "
+                        +  "\n ");
 
         for (Item item : items){
             inventory += item.getName().toString() + "\n";
